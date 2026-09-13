@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Jake Shepherd</title>
+  <meta name="description" content="Projects by Jake Shepherd.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-body">
+
+<header class="topbar">
+  <a class="name" href="index.html">Jake Shepherd</a>
+
+  <button class="menu-button" id="menuButton" aria-label="Open menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</header>
+
+<nav class="menu" id="menu">
+  <a href="index.html">Home</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://www.linkedin.com/in/jakeshepherd27/" target="_blank" rel="noopener">LinkedIn</a>
+</nav>
+
+<main class="portfolio-page">
+  <div class="portfolio-heading">
+    <p>PORTFOLIO</p>
+    <h1>My Projects</h1>
+    <span>Projects I have designed, built and developed.</span>
+  </div>
+
+  <section class="project-grid">
+    <article class="project-card">
+      <a
+        class="card-image"
+        href="https://scope-adsb.jake-shepherd.workers.dev"
+        target="_blank"
+        rel="noopener"
+      >
+        <img src="assets/flight-tracker.jpg" alt="SCOPE ADS-B Flight Tracker">
+        <div class="image-overlay">
+          <strong>Open live project</strong>
+        </div>
+      </a>
+
+      <div class="card-content">
+        <p class="number">01</p>
+        <h2>SCOPE ADS-B Flight Tracker</h2>
+        <p>
+          A live aircraft tracking website using ADS-B data, Cloudflare
+          Workers and an interactive map.
+        </p>
+
+        <div class="card-links">
+          <a href="https://scope-adsb.jake-shepherd.workers.dev" target="_blank" rel="noopener">Live site</a>
+          <a href="https://github.com/YOUR-GITHUB-USERNAME/YOUR-SCOPE-REPOSITORY" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card text-card">
+      <div class="joggler-art">
+        <div class="joggler-screen">
+          <div class="joggler-top"></div>
+          <div class="joggler-widget wide"></div>
+          <div class="joggler-row">
+            <div class="joggler-widget"></div>
+            <div class="joggler-widget"></div>
+          </div>
+          <div class="joggler-nav"></div>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <p class="number">02</p>
+        <h2>O2 Joggler Touchscreen Project</h2>
+        <p>
+          Reworking an O2 Joggler into a custom touchscreen dashboard,
+          including the Linux setup, browser kiosk interface, touchscreen
+          input and local controls.
+        </p>
+
+        <div class="private-project">
+          Private local project - no live link
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card text-card">
+      <div class="coming-art">
+        <span>03</span>
+      </div>
+
+      <div class="card-content">
+        <p class="number">03</p>
+        <h2>More coming soon</h2>
+        <p>
+          New software, electronics and development projects will be
+          added here as I build them.
+        </p>
+      </div>
+    </article>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
